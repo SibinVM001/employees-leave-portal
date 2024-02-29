@@ -1,0 +1,126 @@
+/* Author : Sibin V M, 
+Page Title : Queries,
+Created Date : 03-06-2022 */
+
+
+.adminLogin .container{
+
+    height: 80vh;
+    
+}
+
+.adminLogin .loginForm{
+
+    width: 300px;
+
+}
+
+.adminLogin input{
+
+    height: 40px;
+
+}
+
+.adminLogin button{
+
+    height: 40px;
+
+}
+
+.adminLogin .errorMsg{
+
+    color: red;
+    font-size: 14px;
+    visibility: hidden;
+    
+}
+
+a{
+
+    text-decoration: none;
+
+}
+
+.calenderContainer {
+
+    position: relative;
+    float: left;
+    height: 40px;
+    width: 40px;
+
+}
+
+.calender {
+
+    height: 40px;
+    width: 40px;
+    opacity: 0;
+    cursor: pointer;
+
+}
+
+.inputField{
+
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+
+}
+
+.calenderOpenBtn {
+
+    position: absolute;
+    top: 2px;
+    bottom: 0px;
+    left: 2px;
+    width: 40px;
+    height: 40px;
+    pointer-events: none;
+
+}
+
+.calenderOpenBtn button {
+
+    border: none;
+    background: transparent;
+    font-size: 40px;
+
+}
+
+::-webkit-calendar-picker-indicator{
+
+    cursor: pointer;
+    font-size: 50px;
+
+}
+
+input[type='number']::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+
+}
+
+input[type='date']::-webkit-clear-button{
+
+    -webkit-appearance: none;
+
+}
+
+#dashboardMain .card{
+
+    cursor: pointer;
+
+}
+
+#dashboardMain .card:hover, #companyDetails .card:hover {
+
+    background-color: white !important;
+    color: black !important;
+    
+}
+
+/* #companyDetails i{
+    color: #da2a3c;
+} */
